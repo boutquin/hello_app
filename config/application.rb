@@ -1,6 +1,15 @@
 require_relative "boot"
 
-require "rails/all"
+require "active_model/railtie"        # Provides model layer without database, useful for validations, etc.
+require "action_controller/railtie"   # Handles web requests, essential for controllers.
+require "action_view/railtie"         # Handles rendering views (templates).
+require "action_mailer/railtie"       # Required for sending emails.
+require "action_cable/engine"         # Enables real-time WebSocket communication.
+require "active_job/railtie"          # Provides background jobs and queuing.
+require "active_storage/engine"       # Manages file uploads and attachments.
+require "action_mailbox/engine"       # Receives and processes incoming emails.
+require "action_text/engine"          # Adds rich text capabilities to the app.
+require "rails/test_unit/railtie"     # Includes the default Rails testing framework.
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
