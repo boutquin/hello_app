@@ -1,6 +1,8 @@
-# Hello App - Ruby on Rails 8 with FlowBite
+# Hello App
 
 [![Build Status](https://github.com/boutquin/hello_app/actions/workflows/ci.yml/badge.svg)](https://github.com/boutquin/hello_app/actions)
+[![MiniTest](https://github.com/boutquin/hello_app/actions/workflows/ci.yml/badge.svg)](https://github.com/boutquin/hello_app/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/boutquin/hello_app/badge.svg?branch=main)](https://coveralls.io/github/boutquin/hello_app?branch=main)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Ruby](https://img.shields.io/badge/Ruby-3.3.5-red)
 ![Rails](https://img.shields.io/badge/Rails-8.0.0.beta1-red)
@@ -25,7 +27,7 @@ This is a Ruby on Rails application. This README will document the steps necessa
 
 ## Ruby Version
 
-This application requires Ruby 3.0. Ensure you have the correct version installed.
+This application requires Ruby 3.3.5. Ensure you have the correct version installed.
 
 ## System Dependencies
 
